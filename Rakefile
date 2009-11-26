@@ -4,12 +4,13 @@ require 'spec/rake/spectask'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gemspec|
-    gemspec.name = "g_viz"
+    gemspec.name = "JamieFlournoy-g_viz"
     gemspec.summary = "Google Visualization API Ruby Client"
     gemspec.email = "gary.tsang@gmail.com"
-    gemspec.homepage = "http://github.com/garru/g_viz"
-    gemspec.description = "Google Visualization API Ruby Client"
+    gemspec.homepage = "http://github.com/JamieFlournoy/g_viz"
+    gemspec.description = "A Ruby client for the Google Visualization API."
     gemspec.authors = ["Gary Tsang"]
+    gemspec.rubyforge_project = "none"
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"

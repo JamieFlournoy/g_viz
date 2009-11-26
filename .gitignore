@@ -1,1 +1,4 @@
+*#
 .autotest
+*~
+pkg/*.gem
